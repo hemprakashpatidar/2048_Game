@@ -80,7 +80,7 @@ class games():
         index-=1
   def combine(self):
     for i in range(4):
-      for j in range(3,-1,-1):
+      for j in range(3,0,-1):
         if(self.arrs[j][i]==self.arrs[j-1][i]):
           self.arrs[j][i]=2*self.arrs[j][i]
           self.arrs[j-1][i]=0
